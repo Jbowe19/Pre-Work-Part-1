@@ -1,0 +1,138 @@
+ .container {
+       margin: auto;
+       width: 34%;
+       font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+       font-size: 10px;
+       color: #424242;
+	     line-height: 1;
+       border-radius: 5px;
+       border: 50px solid #eaeaea;
+       border-width: 2px 2px;
+       align-content: center;
+       display: block:
+}
+.days {
+  color: coral;
+  font-weight: bold;
+}
+
+  .content {
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    text-align: justify;
+  }
+
+main {
+  padding: 20px 30px 25px;
+  font-size: 15px;
+
+
+}
+  h2 {
+    font-size: 15px;
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+   .hero {
+      position: relative;
+      background-color: #444;
+      border-radius: 5px;
+      width: 98%;
+      margin-bottom: 10px;
+      padding: 5px;
+      text-align: center;
+      color: #fff;
+
+}
+   .hero:after {
+     content: '';
+     position: absolute;
+     top: 100%;
+     right: 10%;
+     margin-left: -50px;
+     width: 0;
+     height: 0;
+     border-top: solid 10px #444;
+     border-left: solid 10px transparent;
+     border-right: solid 10px transparent;
+
+}
+
+   .loadingBarOuter {
+       border: 1px solid grey;
+
+}
+
+   .loadingBarInner {
+       height: 24px;
+       width: 70%;
+       background: coral;
+
+}
+.time {
+     color: orange;
+     font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+     font-weight: bold;
+}
+input[type=text] {
+  font-size: 1rem;
+  display: inline-block;
+  width: 47%;
+  padding: 15px 15px 15px 22px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-right: 3%;
+  font-weight: 500;
+  float; left;
+
+}
+.button {
+ font-size: 1rem;
+ display: inline-block;
+ background-color: #1CBC2C;
+ width: 47%;
+ margin-left: 3%;
+ border: 0;
+ color: white;
+ font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+ padding: 15px;
+ border-radius: 3px;
+ box-sizing: border-box;
+ float: right;
+
+}
+.opt-button{
+  padding: 10px 0;
+  text-align: center;
+
+}
+#opt1 {
+   background-color: #ffffff;
+   border:  solid #eaeaea;
+   border-radius: 5px;
+   color: gray;
+   border-width: 2px;
+   font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+   font-size: 17px;
+   display: inline-block;
+
+ }
+ #opt2 {
+    background-color: #ffffff;
+    border:  solid #eaeaea;
+    border-radius: 5px;
+    color: gray;
+    border-width: 2px;
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    font-size: 17px;
+    display: inline-block;
+
+  }
+ .give {
+   color: #20A1D4;
+   font-size: 15px;
+   clear: left; float: left; position: relative; left: 0%;
+   margin-right: 30px;
+   margin-left: 20px;
+
+
+}
